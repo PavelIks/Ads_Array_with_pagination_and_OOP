@@ -1,4 +1,5 @@
 <?php
+
 class Post
 {
     public $URL;
@@ -42,10 +43,11 @@ class Post
                         <td style="background: lightgoldenrodyellow">' .$this->isTop. '</td>
                     </tr>
                     <tr>
-                        <td><a href=' . $this->URL_of_page . '><button>Buy!</button></a></td>
+                        <td><a href=' . $this->URL_of_page . '><input type="button" value="Buy!" onclick="click1"/></a></td>
                     </tr>
                 </table>
             ';
     }
 }
+
 ?>
