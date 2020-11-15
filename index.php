@@ -14,7 +14,6 @@
 <?php
     include "Post.php";
 
-
     $ads_array = array
     (
         new Post
